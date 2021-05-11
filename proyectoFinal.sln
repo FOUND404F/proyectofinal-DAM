@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Prueba\Game.csproj", "{C780536D-0587-4DBB-B06A-7005162B99D2}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{3B808415-C54C-48E8-A3D1-3F40D3C388CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C780536D-0587-4DBB-B06A-7005162B99D2}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{C780536D-0587-4DBB-B06A-7005162B99D2}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{C780536D-0587-4DBB-B06A-7005162B99D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C780536D-0587-4DBB-B06A-7005162B99D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B808415-C54C-48E8-A3D1-3F40D3C388CC}.Debug|Any CPU.ActiveCfg = Debug
+		{3B808415-C54C-48E8-A3D1-3F40D3C388CC}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E51847D2-D6D7-4175-8507-9B54E4A7769C}
+	EndGlobalSection
+EndGlobal

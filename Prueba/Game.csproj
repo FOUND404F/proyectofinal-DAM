@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C780536D-0587-4DBB-B06A-7005162B99D2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Prueba</RootNamespace>
+    <AssemblyName>Prueba</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.19.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Card.cs" />
+    <Compile Include="ConnectionBD.cs" />
+    <Compile Include="BinaryController.cs" />
+    <Compile Include="Enemies.cs" />
+    <Compile Include="GameProgress.cs" />
+    <Compile Include="DamageCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Encyclopedia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Encyclopedia.Designer.cs">
+      <DependentUpon>Encyclopedia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fight.Designer.cs">
+      <DependentUpon>Fight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpgradeCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpgradeCard.Designer.cs">
+      <DependentUpon>UpgradeCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SecondaryMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SecondaryMenu.Designer.cs">
+      <DependentUpon>SecondaryMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewGame.Designer.cs">
+      <DependentUpon>NewGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScreenTitle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScreenTitle.Designer.cs">
+      <DependentUpon>ScreenTitle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Character.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SelectLevel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectLevel.Designer.cs">
+      <DependentUpon>SelectLevel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SplashIntro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashIntro.designer.cs">
+      <DependentUpon>SplashIntro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shop.Designer.cs">
+      <DependentUpon>Shop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlCard.Designer.cs">
+      <DependentUpon>UserControlCard.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Encyclopedia.resx">
+      <DependentUpon>Encyclopedia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fight.resx">
+      <DependentUpon>Fight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpgradeCard.resx">
+      <DependentUpon>UpgradeCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SecondaryMenu.resx">
+      <DependentUpon>SecondaryMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewGame.resx">
+      <DependentUpon>NewGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScreenTitle.resx">
+      <DependentUpon>ScreenTitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectLevel.resx">
+      <DependentUpon>SelectLevel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashIntro.resx">
+      <DependentUpon>SplashIntro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop.resx">
+      <DependentUpon>Shop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlCard.resx">
+      <DependentUpon>UserControlCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Allied Characters\YellowBlu2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Allied Characters\YellowBlu1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\Curar 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\Curar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\Curar 3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\Infeccion.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\Picadura.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\Chupasangre.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\Succion.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\AyudaExtra.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\Ayuda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\Asalto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\Maldicion.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\Pillaje.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\Ataque basico.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\Disparo certero.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\Estallido.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\Fuerza sobrenatural.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\Golpe fantasmal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\Golpe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\Mordisco.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\Quemar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\Ventisca.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Allied Characters\Aris.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Allied Characters\Aris2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Allied Characters\Aris3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Allied Characters\Jackal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Allied Characters\Jackal2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Allied Characters\Jackal3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Allied Characters\Phyri.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Allied Characters\Phyri2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Allied Characters\Phyri3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="ShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Enemy Characters\Gargola.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Enemy Characters\GargolaContenido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Enemy Characters\Golem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Enemy Characters\GolemContenido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Enemy Characters\Manticora.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Enemy Characters\ManticoraContenido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Enemy Characters\Slime.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Enemy Characters\SlimeContenido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Enemy Characters\Unicornio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Enemy Characters\UnicornioContenido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dorso.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wallpaper\Titulo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wallpaper\fondo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wallpaper\fondo2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wallpaper\fondo3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wallpaper\fondo4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wallpaper\fondo5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buho.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\conejo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zorro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wallpaper\fondoEnciclopedia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wallpaper\fondoMejorar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wallpaper\fondoNuevo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wallpaper\fondoPrincipal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wallpaper\fondoSecundario.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wallpaper\fondoSeleccion.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wallpaper\fondoTienda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Encyclopedia Images\CaballoEnciclopedia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Encyclopedia Images\GargolaEnciclopedia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Encyclopedia Images\GolemEnciclopedia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Encyclopedia Images\LeonEnciclopedia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Encyclopedia Images\SlimeEnciclopedia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Encyclopedia Images\YellowBluEnciclopedia.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

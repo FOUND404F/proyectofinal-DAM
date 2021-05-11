@@ -1,0 +1,80 @@
+C:\Users\Raque\source\repos\Prueba\Prueba\bin\Debug\Prueba.exe.config
+C:\Users\Raque\source\repos\Prueba\Prueba\bin\Debug\Prueba.exe
+C:\Users\Raque\source\repos\Prueba\Prueba\bin\Debug\Prueba.pdb
+C:\Users\Raque\source\repos\Prueba\Prueba\obj\Debug\Prueba.csprojAssemblyReference.cache
+C:\Users\Raque\source\repos\Prueba\Prueba\obj\Debug\Prueba.Form1.resources
+C:\Users\Raque\source\repos\Prueba\Prueba\obj\Debug\Prueba.Properties.Resources.resources
+C:\Users\Raque\source\repos\Prueba\Prueba\obj\Debug\Prueba.csproj.GenerateResource.cache
+C:\Users\Raque\source\repos\Prueba\Prueba\obj\Debug\Prueba.exe
+C:\Users\Raque\source\repos\Prueba\Prueba\obj\Debug\Prueba.pdb
+C:\Users\Raque\source\repos\Prueba\Prueba\bin\Debug\MySql.Data.dll
+C:\Users\Raque\source\repos\Prueba\Prueba\bin\Debug\Google.Protobuf.dll
+C:\Users\Raque\source\repos\Prueba\Prueba\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Raque\source\repos\Prueba\Prueba\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Raque\source\repos\Prueba\Prueba\bin\Debug\Renci.SshNet.dll
+C:\Users\Raque\source\repos\Prueba\Prueba\bin\Debug\MySql.Data.xml
+C:\Users\Raque\source\repos\Prueba\Prueba\obj\Debug\Prueba.csproj.CopyComplete
+C:\Users\optima\Desktop\Prueba\Prueba\bin\Debug\Prueba.exe.config
+C:\Users\optima\Desktop\Prueba\Prueba\bin\Debug\Prueba.exe
+C:\Users\optima\Desktop\Prueba\Prueba\bin\Debug\Prueba.pdb
+C:\Users\optima\Desktop\Prueba\Prueba\bin\Debug\MySql.Data.dll
+C:\Users\optima\Desktop\Prueba\Prueba\bin\Debug\Google.Protobuf.dll
+C:\Users\optima\Desktop\Prueba\Prueba\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\optima\Desktop\Prueba\Prueba\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\optima\Desktop\Prueba\Prueba\bin\Debug\Renci.SshNet.dll
+C:\Users\optima\Desktop\Prueba\Prueba\bin\Debug\MySql.Data.xml
+C:\Users\optima\Desktop\Prueba\Prueba\obj\Debug\Prueba.csprojAssemblyReference.cache
+C:\Users\optima\Desktop\Prueba\Prueba\obj\Debug\Prueba.Form1.resources
+C:\Users\optima\Desktop\Prueba\Prueba\obj\Debug\Prueba.Properties.Resources.resources
+C:\Users\optima\Desktop\Prueba\Prueba\obj\Debug\Prueba.csproj.GenerateResource.cache
+C:\Users\optima\Desktop\Prueba\Prueba\obj\Debug\Prueba.csproj.CopyComplete
+C:\Users\optima\Desktop\Prueba\Prueba\obj\Debug\Prueba.exe
+C:\Users\optima\Desktop\Prueba\Prueba\obj\Debug\Prueba.pdb
+E:\PROYECTO FINAL\Prueba\Prueba\bin\Debug\Prueba.exe.config
+E:\PROYECTO FINAL\Prueba\Prueba\bin\Debug\Prueba.exe
+E:\PROYECTO FINAL\Prueba\Prueba\bin\Debug\Prueba.pdb
+E:\PROYECTO FINAL\Prueba\Prueba\bin\Debug\MySql.Data.dll
+E:\PROYECTO FINAL\Prueba\Prueba\bin\Debug\Google.Protobuf.dll
+E:\PROYECTO FINAL\Prueba\Prueba\bin\Debug\BouncyCastle.Crypto.dll
+E:\PROYECTO FINAL\Prueba\Prueba\bin\Debug\Ubiety.Dns.Core.dll
+E:\PROYECTO FINAL\Prueba\Prueba\bin\Debug\Renci.SshNet.dll
+E:\PROYECTO FINAL\Prueba\Prueba\bin\Debug\MySql.Data.xml
+E:\PROYECTO FINAL\Prueba\Prueba\obj\Debug\Prueba.csprojAssemblyReference.cache
+E:\PROYECTO FINAL\Prueba\Prueba\obj\Debug\Prueba.Form1.resources
+E:\PROYECTO FINAL\Prueba\Prueba\obj\Debug\Prueba.Properties.Resources.resources
+E:\PROYECTO FINAL\Prueba\Prueba\obj\Debug\Prueba.csproj.GenerateResource.cache
+E:\PROYECTO FINAL\Prueba\Prueba\obj\Debug\Prueba.csproj.CopyComplete
+E:\PROYECTO FINAL\Prueba\Prueba\obj\Debug\Prueba.exe
+E:\PROYECTO FINAL\Prueba\Prueba\obj\Debug\Prueba.pdb
+E:\PROYECTO FINAL\Prueba\Prueba\obj\Debug\Prueba.UserControlCarta.resources
+C:\Users\Raque\source\repos\ProyectoFinal\Prueba\bin\Debug\Prueba.exe.config
+C:\Users\Raque\source\repos\ProyectoFinal\Prueba\bin\Debug\Prueba.exe
+C:\Users\Raque\source\repos\ProyectoFinal\Prueba\bin\Debug\Prueba.pdb
+C:\Users\Raque\source\repos\ProyectoFinal\Prueba\bin\Debug\MySql.Data.dll
+C:\Users\Raque\source\repos\ProyectoFinal\Prueba\bin\Debug\Google.Protobuf.dll
+C:\Users\Raque\source\repos\ProyectoFinal\Prueba\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Raque\source\repos\ProyectoFinal\Prueba\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Raque\source\repos\ProyectoFinal\Prueba\bin\Debug\Renci.SshNet.dll
+C:\Users\Raque\source\repos\ProyectoFinal\Prueba\bin\Debug\MySql.Data.xml
+C:\Users\Raque\source\repos\ProyectoFinal\Prueba\obj\Debug\Prueba.csprojAssemblyReference.cache
+C:\Users\Raque\source\repos\ProyectoFinal\Prueba\obj\Debug\Prueba.Properties.Resources.resources
+C:\Users\Raque\source\repos\ProyectoFinal\Prueba\obj\Debug\Prueba.UserControlCarta.resources
+C:\Users\Raque\source\repos\ProyectoFinal\Prueba\obj\Debug\Prueba.csproj.GenerateResource.cache
+C:\Users\Raque\source\repos\ProyectoFinal\Prueba\obj\Debug\Prueba.csproj.CopyComplete
+C:\Users\Raque\source\repos\ProyectoFinal\Prueba\obj\Debug\Prueba.exe
+C:\Users\Raque\source\repos\ProyectoFinal\Prueba\obj\Debug\Prueba.pdb
+C:\Users\Raque\source\repos\ProyectoFinal\Prueba\obj\Debug\Prueba.PantallaTitulo.resources
+C:\Users\Raque\source\repos\ProyectoFinal\Prueba\obj\Debug\Prueba.MenuPrincipal.resources
+C:\Users\Raque\source\repos\ProyectoFinal\Prueba\obj\Debug\Prueba.MenuSecundario.resources
+C:\Users\Raque\source\repos\ProyectoFinal\Prueba\obj\Debug\Prueba.MejorarCarta.resources
+C:\Users\Raque\source\repos\ProyectoFinal\Prueba\obj\Debug\Prueba.NuevaPartida.resources
+C:\Users\Raque\source\repos\ProyectoFinal\Prueba\obj\Debug\Prueba.SeleccionarNivel.resources
+C:\Users\Raque\source\repos\ProyectoFinal\Prueba\obj\Debug\Prueba.Tienda.resources
+C:\Users\Raque\source\repos\ProyectoFinal\Prueba\obj\Debug\Prueba.Enciclopedia.resources
+C:\Users\Raque\source\repos\ProyectoFinal\Prueba\obj\Debug\Prueba.Combate.resources
+C:\Users\Raque\source\repos\ProyectoFinal\Prueba\obj\Debug\Prueba.SplashIntro.resources
+C:\Users\Raque\source\repos\ProyectoFinal\Prueba\bin\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\Raque\source\repos\ProyectoFinal\Prueba\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\Raque\source\repos\ProyectoFinal\Prueba\obj\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\Raque\source\repos\ProyectoFinal\Prueba\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\Raque\source\repos\ProyectoFinal\Prueba\obj\Debug\Prueba.csproj.ResolveComReference.cache
