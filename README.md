@@ -17,7 +17,7 @@ You can download all the documentation in the following [link](https://mega.nz/f
 Hi, I'm Raquel! I'm a Spanish junior developer who is always eager to learn new technologies. I am an optimistic person who loves challenges.
 
 Find me around the web 🌎:
-- Follow me in <a href=https://https://www.linkedin.com/in/raquel-heredia-d%C3%ADaz-0485311a1/>Linkedln</a> 💼
+- Follow me in <a href=https://www.linkedin.com/in/raquel-heredia-d%C3%ADaz-0485311a1/>Linkedln</a> 💼
 
 ---
 
